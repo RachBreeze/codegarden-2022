@@ -2,13 +2,18 @@
 
 Created as part of the [CodeGarden 2022 Challenge](https://umbraco.com/blog/join-the-codegarden-challenge/)
 
-As an additional goal I wanted to use kit that would be available at [CoderDojo](https://coderdojo.com/) so that it could be used or extended on at local CoderDojos. And use the MakerCode building blocks
+As an additional goal I wanted to use kit that would be available at [CoderDojo](https://coderdojo.com/) so that it could be used or extended on at local CoderDojos using the MakerCode building blocks.
 
 ##  Available Actions
 * On load shows the icon heart
 * On shake flashes the heart icon
 * A button press shows direction to CodeGarden, based on being in Manchester which is roughly 45 degree angle away. Please note in [MakeCode Blocks](https://makecode.microbit.org/#) Coordinates are not available 
 * B button press display information on CodeGarden
+* A + B Button press together sends a #H5YR message to another MicroBit running the same code.
+
+#H5YR stands for "High 5 You Rock". The [H5YR Site](https://h5yr.com/about/) explains more about the hashtag.
+
+The communication between MicroBits is set at the start, when all MicroBits running the code are set to "Group 1", this sets the channel for sending and recieving data.
 
 ## Use as Extension
 
