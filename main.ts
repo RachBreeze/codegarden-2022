@@ -18,17 +18,32 @@ input.onButtonPressed(Button.A, function () {
         basic.showArrow(ArrowNames.NorthEast)
     }
 })
+input.onButtonPressed(Button.AB, function () {
+    radio.sendString("#H5YR")
+})
+radio.onReceivedString(function (receivedString) {
+    if (receivedString == "#H5YR") {
+        radio.sendString("Thank You")
+        basic.showString("#H5YR")
+    } else if (receivedString == "Thank You") {
+        images.iconImage(IconNames.Happy).showImage(0)
+        basic.pause(100)
+        images.iconImage(IconNames.Heart).showImage(0)
+    }
+})
 input.onButtonPressed(Button.B, function () {
-    basic.showString("CodeGarden 2022, June 15 #H5YR")
+    basic.showString("CG22")
 })
 input.onGesture(Gesture.Shake, function () {
     images.iconImage(IconNames.SmallHeart).showImage(0)
     images.iconImage(IconNames.Heart).showImage(0)
-    InvertedHeart.showImage(0)
+    invertedHeart.showImage(0)
     images.iconImage(IconNames.Heart).showImage(0)
 })
 let myDirection2 = 0
-let InvertedHeart2 = images.createImage(`
+let invertedHeart: Image = null
+radio.setGroup(1)
+invertedHeart = images.createImage(`
     # . # . #
     . . . . .
     . . . . .
