@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "CodeGarden 2022": "github:rachbreeze/codegarden-2022-Microbit-MakeCode-Blocks#b12b474ae1455e5e9005defa06514db0eb528d33"
     },
     "files": [
         "main.blocks",

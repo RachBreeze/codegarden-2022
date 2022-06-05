@@ -37,6 +37,3 @@ InvertedHeart = images.createImage(`
     # # . # #
     `)
 images.iconImage(IconNames.Heart).showImage(0)
-basic.forever(function () {
-	
-})
