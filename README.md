@@ -1,5 +1,3 @@
-
-> Open this page at [https://rachbreeze.github.io/codegarden-2022/](https://rachbreeze.github.io/codegarden-2022/)
 ##  Background
 
 Created as part of the [CodeGarden 2022 Challenge](https://umbraco.com/blog/join-the-codegarden-challenge/)
@@ -9,7 +7,7 @@ As an additional goal I wanted to use kit that would be available at [CoderDojo]
 ##  Available Actions
 * On load shows the icon heart
 * On shake flashes the heart icon
-* A button press shows direction to CodeGarden, based on being in Manchester which is roughly 45 degree angle away. Please note in [MakerCode](https://makecode.microbit.org/#) Coordinates are not available 
+* A button press shows direction to CodeGarden, based on being in Manchester which is roughly 45 degree angle away. Please note in [MakeCode Blocks](https://makecode.microbit.org/#) Coordinates are not available 
 * B button press display information on CodeGarden
 
 ## Use as Extension
