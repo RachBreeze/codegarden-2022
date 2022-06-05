@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    myDirection = input.compassHeading()
+    myDirection2 = input.compassHeading()
     if (myDirection < 45) {
         basic.showArrow(ArrowNames.North)
     } else if (myDirection < 90) {
@@ -27,9 +27,8 @@ input.onGesture(Gesture.Shake, function () {
     InvertedHeart.showImage(0)
     images.iconImage(IconNames.Heart).showImage(0)
 })
-let myDirection = 0
-let InvertedHeart: Image = null
-InvertedHeart = images.createImage(`
+let myDirection2 = 0
+let InvertedHeart2 = images.createImage(`
     # . # . #
     . . . . .
     . . . . .
