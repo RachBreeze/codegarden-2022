@@ -8,7 +8,7 @@ As an additional goal I wanted to use kit that would be available at [CoderDojo]
 ##  Available Actions
 * On load shows the icon heart
 * On shake flashes the heart icon
-* A button press shows direction to CodeGarden, based on being in Manchester which is roughly 45 degree angle away. Please note in [MakeCode Blocks](https://makecode.microbit.org/#) Coordinates are not available 
+* A button press shows direction to CodeGarden, based on being in Manchester which is roughly 45 degree angle away. In [MakeCode Blocks](https://makecode.microbit.org/#) Coordinates are not available. On first button click you initalise the compass by filling the screen (https://support.microbit.org/support/solutions/articles/19000008874-calibrating-the-micro-bit-compass#:~:text=When%20you%20load%20a%20program,this%2C%20your%20program%20will%20run).
 * B button press display information on CodeGarden
 * A + B Button press together sends a #H5YR message to another MicroBit running the same code.
 
