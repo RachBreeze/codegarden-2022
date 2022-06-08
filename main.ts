@@ -1,18 +1,17 @@
 input.onButtonPressed(Button.A, function () {
-    myDirection2 = input.compassHeading()
-    if (myDirection < 45) {
+    if (myDirection2 < 45) {
         basic.showArrow(ArrowNames.North)
-    } else if (myDirection < 90) {
+    } else if (myDirection2 < 90) {
         basic.showArrow(ArrowNames.NorthWest)
-    } else if (myDirection < 135) {
+    } else if (myDirection2 < 135) {
         basic.showArrow(ArrowNames.West)
-    } else if (myDirection < 180) {
+    } else if (myDirection2 < 180) {
         basic.showArrow(ArrowNames.SouthWest)
-    } else if (myDirection < 225) {
+    } else if (myDirection2 < 225) {
         basic.showArrow(ArrowNames.South)
-    } else if (myDirection < 270) {
+    } else if (myDirection2 < 270) {
         basic.showArrow(ArrowNames.SouthEast)
-    } else if (myDirection < 315) {
+    } else if (myDirection2 < 315) {
         basic.showArrow(ArrowNames.East)
     } else {
         basic.showArrow(ArrowNames.NorthEast)
@@ -51,3 +50,6 @@ invertedHeart = images.createImage(`
     # # . # #
     `)
 images.iconImage(IconNames.Heart).showImage(0)
+basic.forever(function () {
+    myDirection2 = input.compassHeading()
+})
