@@ -1,4 +1,4 @@
-#CodeGarden 2022 - Micro:Bit assistant
+# CodeGarden 2022 - Micro:Bit assistant
 ##  Background
 
 Created as part of the [CodeGarden 2022 Challenge](https://umbraco.com/blog/join-the-codegarden-challenge/)
