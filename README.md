@@ -1,3 +1,4 @@
+#CodeGarden 2022 - Micro:Bit assistant
 ##  Background
 
 Created as part of the [CodeGarden 2022 Challenge](https://umbraco.com/blog/join-the-codegarden-challenge/)
@@ -43,3 +44,6 @@ This image may take a few minutes to refresh.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## Branch Name Notes
+Makecode will not import a GitHub repo if the Main branch isn't called "Master"
