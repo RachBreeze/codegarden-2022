@@ -16,6 +16,8 @@ As an additional goal I wanted to use kit that would be available at [CoderDojo]
 
 The communication between MicroBits is set at the start, when all MicroBits running the code are set to "Group 1", this sets the channel for sending and recieving data.
 
+The compass needs the forever loop setting to ensure it always reads the latest direction.
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
